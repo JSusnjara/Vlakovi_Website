@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>O autoru</title>
+        <meta charset="UTF-8">
+        <meta name="title" content="Vlakovi">
+        <meta name="description" content="Website for train enthusiasts">
+        <meta name="keywords" content="train, exhibition, railway, locomotive, vlakovi, željeznica">
+        <meta name="author" content="Josip Šušnjara">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="date.created" content="2021-05-23">
+        <link rel='stylesheet' href='./css/jsusnjara.css' type='text/css'/>
+    </head>
+
+    <body>
+        <header>
+            <div class='h'>
+                <h1>VLAKOVI</h1>
+                <nav>
+                    <ul>
+                        <li><a href='./index.php'>Početna stranica</a></li>
+                        <li><a href='./autor.html'>O autoru</a></li>
+                        <li><a href='./rss.php'>RSS kanal</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <h2>O autoru</h2>
+
+            <div class="d">
+                <h3>Podaci o autoru</h3>
+                <b>Ime: </b>Josip<br>
+                <b>Prezime: </b>Šušnjara<br>
+                <b>JMBAG: </b>9996003774<br>
+                <b>E-mail: </b>jsusnjara@foi.hr<br>
+            </div>
+
+            <div class="d">
+                <h3>Dijagrami web stranice</h3>
+                <div class="galerijaRed">
+
+                    <figure>
+                        <img src="./datoteke/navigacijski.png" usemap="#navigacijskiMapa" 
+                             alt="Navigacijski dijagram" class="slikeDijagrami">
+                        <figcaption>Navigacijski dijagram</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./datoteke/era.png" usemap="#eraMapa" 
+                             alt="ERA dijagram" class="slikeDijagrami">
+                        <figcaption>ERA dijagram</figcaption>
+                    </figure>
+                    <map name="navigacijskiMapa">
+                        <area shape="rect" coords="0,0,200,200" href="./datoteke/navigacijski.png" alt="Slika"/>
+                    </map>
+                    <map name="eraMapa">
+                        <area shape="rect" coords="0,0,200,200" href="./datoteke/era.png" alt="Slika"/>
+                    </map>
+                </div>
+            </div>
+
+        </section>
+    </body>
+
+    <footer>
+        <p>&copy; 2021.</p>
+    </footer>
+</html>

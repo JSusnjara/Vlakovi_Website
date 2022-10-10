@@ -1,0 +1,152 @@
+html {
+    background-color: #8B4513;
+}
+
+header{
+    background-color: #8B4513;
+    background-image: url(../datoteke/train_logo.jpg);
+    background-repeat: no-repeat;
+    border:3px solid;
+    padding: 10px;
+}
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+    color: #FF8C00;
+    text-shadow: -2px -2px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 280%;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-family: "Times New Roman", Times, serif;
+    color: #8D1A00;
+    text-shadow: 0.1px 0.1px 0 #000, 1px -1px 0 #000, -0.2px 1px 0 #000, 0.2px 1px 0 #000;
+    font-size: 170%;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+div.h{
+    text-align: center;
+}
+
+table.tablica {
+    border-collapse:collapse;
+    border:1px solid;
+    text-align: center;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #DEB887;
+}
+
+table.tablica td{
+    border:1px solid;
+    margin: 3px;
+}
+
+.ikone{
+    margin-left: 90%;
+}
+
+div.d {
+    width: 60%;
+    border:1px solid;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: #DEB887;
+}
+
+input{
+    background-color: #DEB887;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+button{
+    background-color: #DEB887;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+textarea{
+    background-color: #DEB887;
+    font-family: "Times New Roman", Times, serif;
+}
+
+select{
+    background-color: #DEB887;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+section{
+    background-color: #CD853F;
+    margin: 5px;
+    width: 90%;
+}
+
+
+.galerijaRed{
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.slikeGalerija{
+    width: 400px;
+    max-height: 250px;
+    border:2px solid #225522;
+}
+
+.slikeDijagrami{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #225522;
+}
+
+
+nav {
+    width: 100%;
+    padding-top: 15px;
+}
+
+nav > ul {
+    list-style:none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+nav > ul li {
+    display:inline;
+    list-style-type:none;
+    position:relative;
+}
+
+nav > ul li a {
+    border-style:dotted;
+    border-width: 1px;
+    border-color: grey;
+    text-transform:uppercase;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #FF8C00;
+}
+
+
+@media only screen and (max-width: 1300px){
+    nav > ul li {
+        width: 100%;
+    }
+    nav > ul li a {
+        display: block;
+    }
+}
